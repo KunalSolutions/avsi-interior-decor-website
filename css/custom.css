@@ -448,10 +448,31 @@ header.main-header .header-sticky.active .navbar{
 	border-bottom: none;
 }
 
-.navbar-brand{
-	padding: 15px;
-	margin: 0;
-	max-width: 15%;
+.navbar-brand {
+    padding: 10px;
+    margin: 0;
+    max-width: 30%;
+}
+
+/* Adjust for smaller screens (below 768px) */
+@media (max-width: 768px) {
+    .navbar-brand {
+        max-width: 50%; /* Increase size for smaller screens */
+    }
+}
+
+/* Adjust for medium screens (768px - 1200px) */
+@media (min-width: 768px) and (max-width: 1200px) {
+    .navbar-brand {
+        max-width: 35%; /* Slightly increase for better visibility */
+    }
+}
+
+/* Adjust for large screens (above 1200px, like large TVs) */
+@media (min-width: 1200px) {
+    .navbar-brand {
+        max-width: 15%; /* Reduce size for better proportions */
+    }
 }
 
 .main-menu .nav-menu-wrapper{
