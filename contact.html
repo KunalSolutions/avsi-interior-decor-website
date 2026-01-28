@@ -72,8 +72,10 @@
                     </div>
                     <!-- Header Btn Start -->
                     <div class="header-btn d-inline-flex">
-                        <a href="contact.html" class="btn-default">get in touch</a>
-                    </div>
+                         <a href="tel:+919209545784" class="btn-default">
+                            <i class="fa fa-phone"></i> Talk to an Expert
+                        </a>
+                     </div>
                     <!-- Header Btn End -->
                 </div>
                 <!-- Main Menu End -->
@@ -84,6 +86,45 @@
     </div>
 </header>
 <!-- Header End -->
+
+ <a href="https://wa.me/919209545784" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+  <i class="fa fa-comment"></i>
+</a>
+
+    <style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 55px;
+  height: 55px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 55px;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/* Mobile Adjustment */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+</style>
 
     <!-- Page Header Start -->
 	<div class="page-header parallaxie" style="background: url(images/contact.jpg);">
@@ -108,129 +149,146 @@
 	<!-- Page Header End -->
 
     <!-- Page Contact Us Start -->
-    <div class="page-contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- Contact Us Image Start -->
-                    <div class="contact-us-image">
-                        <figure class="image-anime reveal">
-                            <img src="https://i.pinimg.com/736x/36/45/56/364556dd2764b56dfb6fe7574c9c71cc.jpg" alt="">
-                        </figure>
-                    </div>
-                    <!-- Contact Us Image End -->
-                </div>
-                
-                <div class="col-lg-6">
-                    <!-- Contact Us Form Start -->
-                    <div class="contact-us-form">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">We would love to hear <span>from you</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Your email address will not be published. Required fields are marked *</p>
-                        </div>
-                        <!-- Section Title End -->
+<div class="page-contact-us">
+  <div class="container">
+    <div class="row align-items-center">
 
-                        <style>
-                            /* Contact Form Styles */
-                            #contact-form {
-                                padding: 30px;
-                            }
-                          
-                            #contact-form .form-control {
-                                width: 110%;
-                                padding: 10px;
-                                font-size: 16px;
-                                border: 2px solid #ddd;
-                                gap: 100px;
-                                transition: all 0.3s ease-in-out;
-                            }
-                          
-                            #contact-form .form-control:focus {
-                                border-color: #B99860;
-                                box-shadow: 0 0 10px rgba(221, 11, 11, 0.2);
-                                outline: none;
-                            }
-                          
-                            #contact-form textarea {
-                                resize: none;
-                            }
-                          
-                            /* Submit Button */
-                            #contact-form button {
-                                background-color: #B99860;
-                                color: white;
-                                padding: 12px 25px;
-                                border: none;
-                                font-size: 16px;
-                                font-weight: bold;
-                                cursor: pointer;
-                            }
-                        
-                          
-                            /* Messages */
-                            .loading {
-                                display: none;
-                                font-size: 16px;
-                                font-weight: bold;
-                                color: #d10b0b;
-                                margin-bottom: 10px;
-                            }
-                          
-                            .error-message {
-                                color: red;
-                                font-size: 16px;
-                                margin-bottom: 10px;
-                                display: none;
-                            }
-                          
-                            .sent-message {
-                                display: none;
-                                color: green;
-                                font-size: 16px;
-                                font-weight: bold;
-                                margin-bottom: 10px;
-                            }
-                          </style>
-                          
-                          <div class="col-lg-8">
-                              <form id="contact-form" action="https://script.google.com/macros/s/AKfycbwJl_LWyQbYjnE0w0MbhJRpb0Dnz6N_OPzcdCNP8Yh9V_0tjlgEySjvUcJGQtyz2YWo/exec" method="POST">
-                            
-                                <div class="row gy-4">
-                                  <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" autocomplete="off" placeholder="Your Name" required>
-                                  </div>
-                          
-                                  <div class="col-md-6">
-                                    <input type="email" class="form-control" name="email" autocomplete="off" placeholder="Your Email" required>
-                                  </div>
-                          
-                                  <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" autocomplete="off" placeholder="Company Name" required>
-                                  </div>
-                          
-                                  <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" autocomplete="off" placeholder="Message" required></textarea>
-                                  </div>
-                          
-                                  <div class="col-md-12 text-center">
-                                    <div class="loading">Loading...</div>
-                                    <div class="error-message">Error! Please try again.</div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                          
-                                    <button type="submit">Send Message</button>
-                                  </div>
-                                </div>
-                              </form>
-                          </div>
-                </div>
-            </div>
+      <!-- Left Image -->
+      <div class="col-lg-6">
+        <div class="contact-us-image">
+          <figure>
+            <img src="https://i.pinimg.com/736x/36/45/56/364556dd2764b56dfb6fe7574c9c71cc.jpg" alt="Contact Us" style="width:100%; border-radius:12px;">
+          </figure>
         </div>
-    </div>
-    </div>
-    <!-- Page Contact Us End -->
+      </div>
 
+      <!-- Right Content -->
+      <div class="col-lg-6">
+        <div class="contact-us-form">
 
+          <!-- Section Title -->
+          <div class="section-title">
+            <h2>We would love to hear <span>from you</span></h2>
+            <p>Reach out to us directly using the options below.</p>
+          </div>
+
+          <!-- Static Contact Card -->
+          <div class="static-contact-box">
+
+            <div class="contact-item">
+              <i class="fa fa-phone"></i>
+              <div>
+                <h4>Call Us</h4>
+                <a href="tel:+919209545784">+91 92095 45784</a> <br>
+                <a href="tel:+917709683131">+91 77096 83131</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa fa-envelope"></i>
+              <div>
+                <h4>Email Us</h4>
+                <a href="mailto:info@avsi.in">info@avsi.in</a> <br>
+                <a href="mailto:darpan@avsi.in">darpan@avsi.in</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fa fa-map-marker"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Mumbai, Maharashtra, India</p>
+              </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="contact-cta">
+                <a href="tel:+919209545784" class="btn-primary">
+                    <i class="fa fa-phone"></i> Call Now
+                </a>
+                <a href="https://wa.me/919209545784" class="btn-secondary" target="_blank">
+                    <i class="fas fa-regular"></i> WhatsApp Us
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Page Contact Us End -->
+<style>
+.page-contact-us {
+  padding: 80px 0;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.section-title span {
+  color: #B99860;
+}
+
+.static-contact-box {
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 12px;
+  background: #f9f9f9;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.contact-item i {
+  font-size: 22px;
+  color: #B99860;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.contact-item h4 {
+  margin: 0 0 5px;
+  font-size: 18px;
+}
+
+.contact-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-cta {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 22px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background: #B99860;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #0f172a;
+  color: #fff;
+}
+</style>
 
 
     <script>
@@ -257,79 +315,6 @@
         });
       </script>
       
-
-
-
-  <!-- Google Map Section Start -->
-<div class="google-map">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- Contact Info Box Start -->
-                <div class="contact-info-box">
-                    <!-- Contact Info Item Start -->
-                    <div class="contact-info-item wow fadeInUp">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Contact Info Content Start -->
-                        <div class="contact-info-content">
-                            <h3>Phone Numbers</h3>
-                            <p>+91 92095 45784</p>
-                            <p>+91 77096 83131</p>                               
-                        </div>
-                        <!-- Contact Info Content End -->
-                    </div>
-                    <!-- Contact Info Item End -->
-
-                    <!-- Contact Info Item Start -->
-                    <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <i class="fa-regular fa-envelope"></i>
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Contact Info Content Start -->
-                        <div class="contact-info-content">
-                            <h3>Email Support</h3>
-                            <p>info@avsi.in</p>
-                            <p>darpan@avsi.in</p>
-                        </div>
-                        <!-- Contact Info Content End -->
-                    </div>
-                    <!-- Contact Info Item End -->
-
-                    <!-- Contact Info Item Start -->
-                   
-
-                    <!-- Contact Info Item Start -->
-                    <div class="contact-info-item wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- Icon Box Start -->
-                        <div class="icon-box">
-                            <i class="fa-solid fa-house"></i>
-                        </div>
-                        <!-- Icon Box End -->
-
-                        <!-- Contact Info Content Start -->
-                        <div class="contact-info-content">
-                            <h3> Office</h3>
-                            <p>B-267, Akshay Mittal Industrial Estate, Marol Naka, Andheri East, Mumbai, Maharashtra - 400059</p>
-                        </div>
-                        <!-- Contact Info Content End -->
-                    </div>
-                    <!-- Contact Info Item End -->
-                </div>
-                <!-- Contact Info Box End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Google Map Section End -->
-
 
    <!-- Footer Start -->
 <footer class="main-footer text-center" style="color: white; padding: 20px 0;">
