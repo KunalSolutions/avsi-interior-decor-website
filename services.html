@@ -12,7 +12,8 @@
     <title>AVSI INTERIOR AND DECOR</title>
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-	<!-- Favicon Icon -->
+	
+    <!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,14 +38,14 @@
 </head>
 <body>
 
-    <!-- Preloader Start -->
+<!-- Preloader Start -->
 	<div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
 			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
 		</div>
 	</div>
-	<!-- Preloader End -->
+<!-- Preloader End -->
 
 <!-- Header Start -->
 <header class="main-header" style="background-color: white;">
@@ -53,25 +54,28 @@
             <div class="navbar navbar-expand-lg">
                 <!-- Logo Start -->
                 <a class="navbar-brand" href="#">
-						<img src="images/logo.png" alt="Logo">
-					</a>
+                    <img src="images/logo.png" alt="Logo">
+                </a>
                 <!-- Logo End -->
 
                 <!-- Main Menu Start -->
-                <div class="collapse navbar-collapse main-menu" >
+                <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
-                        <ul class="navbar-nav mr-auto" id="menu" >
-                            <li class="nav-item" ><a class="nav-link" style="font-size: 110%; font-weight: 500; color: #333;" href="index.html">Home</a></li>                                
-                            <li class="nav-item"><a class="nav-link" style="font-size: 110%; font-weight: 500; color: #333;" href="about.html">About us</a>
-                            <li class="nav-item"><a class="nav-link" style="font-size: 110%; font-weight: 500; color: #333;" href="services.html">Services</a></li>
-                            <li class="nav-item"><a class="nav-link" style="font-size: 110%; font-weight: 500; color: #333;" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" style="font-size: 110%; font-weight: 500; color: #333;" href="contact.html">Contact Us</a></li>                             
+                        <ul class="navbar-nav mr-auto" id="menu">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>                                
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                             
                         </ul>
                     </div>
                     <!-- Header Btn Start -->
-                    <div class="header-btn d-inline-flex">  
-                        <a href="contact.html" class="btn-default">get in touch</a>
-                    </div>
+                    <div class="header-btn d-inline-flex">
+                         <a href="tel:+919209545784" class="btn-default">
+                            <i class="fa fa-phone"></i> Talk to an Expert
+                        </a>
+                     </div>
                     <!-- Header Btn End -->
                 </div>
                 <!-- Main Menu End -->
@@ -83,18 +87,57 @@
 </header>
 <!-- Header End -->
 
+ <a href="https://wa.me/919209545784" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+  <i class="fa fa-comment"></i>
+</a>
+
+    <style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 55px;
+  height: 55px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 55px;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+/* Mobile Adjustment */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+</style>
+
     <!-- Page Header Start -->
-	<div class="page-header parallaxie" style="background: url('images/services.jpg'); background-size: 1000%;">
+	<div class="page-header parallaxie" style="background: url('images/about.jpg');">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<!-- Page Header Box Start -->
 					<div class="page-header-box">
-						<h1 class="text-anime-style-2" data-cursor="-opaque" style="font-size: 60px;">Services</h1>
+						<h1 class="text-anime-style-2" data-cursor="-opaque">About us</h1>
 						<nav class="wow fadeInUp">
-							<ol class="breadcrumb" >
-								<li class="breadcrumb-item" style="font-size: 15px;"><a href="index.html">home</a></li>
-								<li class="breadcrumb-item active" style="font-size: 15px;" aria-current="page">services</li> 
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index.html">home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">about us</li>
 							</ol>
 						</nav>
 					</div>
@@ -105,163 +148,243 @@
 	</div>
 	<!-- Page Header End -->
 
-   
-
-    <!-- Our Services Section Start -->
-    <div class="page-services">
+    <!-- About Us Section Start -->
+    <div class="about-us page-about-us">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                                <figure class="image-anime">
-                                    <img src="Services/1.jpg" alt="">
-                                </figure>
-                        </div>
-                        <!-- Service Image End -->
-
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a>residential interior design</a></h3>
-                            <p>We create personalized living spaces that reflect your style and functional needs.</p>
-                        </div>
-                        <!-- Service Content End -->
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <!-- About Us Images Start -->
+                    <div class="about-us-images">
+                        <!-- About Image 1 Start -->
+                    <div class="about-img-1">
+                        <figure class="image-anime reveal">
+                            <img src="images/31.jpg" alt="">
+                        </figure>
                     </div>
-                    <!-- Service Item End -->
+                    <!-- About Image 1 End -->
+
+                    <!-- About Image 2 Start -->
+                    <div class="about-img-2">
+                        <figure class="image-anime reveal">
+                            <img src="images/32.jpg" alt="">
+                        </figure>
+
+                        <!-- Feedback Counter Start -->
+                        <div class="experience-counter">
+                            <h3><span class="counter">15</span>+</h3>
+                            <p>Years of experience</p>
+                        </div>
+                        <!-- Feedback Counter End -->
+                    </div>
+                    <!-- About Image 2 End -->
+
+                    <!-- Feedback Counter Start -->
+                    <div class="feedback-counter">
+                        <p><span class="counter">95</span>%</p>
+                        <h3>positive feedback</h3>
+                    </div>
+                    <!-- Feedback Counter End -->
+                    </div>
+                    <!-- About Us Images End -->
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                                <figure class="image-anime">
-                                    <img src="Services/2.jpg" alt="">
-                                </figure>
+                <div class="col-lg-6">
+                    <!-- About Us Content Start -->
+                    <div class="about-us-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp" style="margin-left: -35px;">about us</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            Think a Better Choice, <span>AVSI Interior & Decor</span>
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            AVSI Interior & Decor has been specialized in this field since the last 15 years. 
+                            We excel in design and delivery, working across architecture, master planning, interior design, and graphic design. 
+                            Our mission is to understand our clients’ cultural, functional, operational, and commercial needs to create solutions that work. 
+                            We believe these to be the essence of good design.
+                        </p>
                         </div>
-                        <!-- Service Image End -->
+                        <!-- Section Title End -->
 
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a>commercial design</a></h3>
-                            <p>Enhancing business environments with professional, functional, and aesthetically.</p>
+                        <!-- About Us Content Body Start -->
+                        <div class="about-us-content-body">
+                            <!-- About Content Info Start -->
+                            <div class="about-us-content-info">
+                                <!-- About Us Content List Start -->
+                                <div class="about-us-content-list wow fadeInUp" data-wow-delay="0.4s">
+                                    <ul>
+                                        <li>Interior & Turnkey Solutions</li>
+                                        <li>Architecture Designing</li>
+                                    </ul>
+                                </div>
+                                <!-- About Us Content List End -->
+
+                                <!-- About Us Content Button Start -->
+                                <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s">
+                                    <a href="contact.html" class="btn-default">contect now</a>
+                                </div>
+                                <!-- About Us Content Button End -->
+                            </div>
+                            <!-- About Content Info End -->
+
+                            <!-- About Content List Start -->
+                            <div class="about-us-contact-list">
+                                <!-- About Contact Item Start -->
+                                <div class="about-contact-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="icon-box">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div class="about-contact-content">
+                                        <p>need any help?</p>
+                                        <h3>+(1) 235 800 999</h3>
+                                    </div>
+                                </div>
+                                <!-- About Contact Item End -->
+
+                                <!-- About Contact Item Start -->
+                            <div class="about-contact-item wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="icon-box">
+                                    <figure class="image-anime">
+                                        <img src="images/DARPAN.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <div class="about-contact-content">
+                                    <h3>Darpan Gosavi</h3>
+                                    <!-- <p>co founder</p> -->
+                                </div>
+                            </div>
+                            <!-- About Contact Item End -->
+                            <!-- About Contact Item End -->
+                            </div>
+                            <!-- About Content Info End -->
                         </div>
-                        <!-- Service Content End -->
+                        <!-- About Us Content Body End -->
                     </div>
-                    <!-- Service Item End -->
+                    <!-- About Us Content End -->
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                                <figure class="image-anime">
-                                    <img src="Services/3.jpg" alt="">
-                                </figure>
+                <div class="col-lg-12">
+                    <!-- About Facility List Start -->
+                    <div class="about-facility-list">
+                      <!-- About Facility Item Start -->
+                        <div class="about-facility-item wow fadeInUp">
+                            <div class="icon-box">
+                                <i class="fa fa-tags"></i> <!-- Replaced image with Font Awesome icon -->
+                            </div>
+                            <div class="about-facility-content">
+                                <h3>reasonable prices</h3>
+                                <p>AVSI offers cost-effective interior design solutions without compromising on quality, ensuring affordability for all clients.</p>
+                            </div>
                         </div>
-                        <!-- Service Image End -->
+                        <!-- About Facility Item End -->
 
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a>furniture and decor</a></h3>
-                            <p>Our experts help you choose the perfect furniture and decor complement your style.</p>
+                        <!-- About Facility Item Start -->
+                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="icon-box">
+                                <i class="fa fa-paint-brush"></i> <!-- Replaced image with Font Awesome icon -->
+                            </div>
+                            <div class="about-facility-content">
+                                <h3>exclusive design</h3>
+                                <p>AVSI blends creativity, industry experience, and innovation to deliver unique and exclusive interior designs.</p>
+                            </div>
                         </div>
-                        <!-- Service Content End -->
+                        <!-- About Facility Item End -->
+
+                        <!-- About Facility Item Start -->
+                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="icon-box">
+                                <i class="fa fa-users"></i> <!-- Replaced image with Font Awesome icon -->
+                            </div>
+                            <div class="about-facility-content">
+                                <h3>professional team</h3>
+                                <p>AVSI boasts a skilled and experienced team dedicated to delivering top-notch design and project management services.</p>
+                            </div>
+                        </div>
+                        <!-- About Facility Item End -->
+
                     </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                                <figure class="image-anime">
-                                    <img src="Services/4.jpg" alt="">
-                                </figure>
-                        </div>
-                        <!-- Service Image End -->
-
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a>lighting design</a></h3>
-                            <p>Enhancing ambiance and functionality with thoughtfully designed lighting solutions.</p>
-                        </div>
-                        <!-- Service Content End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                                <figure class="image-anime">
-                                    <img src="Services/5.jpg" alt="">
-                                </figure>
-                        </div>
-                        <!-- Service Image End -->
-
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a>color consultation</a></h3>
-                            <p>Choosing palettes that evoke warmth, energy, or calm to match your vision.</p>
-                        </div>
-                        <!-- Service Content End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                                <figure class="image-anime">
-                                    <img src="Services/6.jpg" alt="">
-                                </figure>
-                        </div>
-                        <!-- Service Image End -->
-
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a>3D visualization</a></h3>
-                            <p>Bringing design ideas to life with realistic 3D models before the work begins.</p>
-                        </div>
-                        <!-- Service Content End -->
-                    </div>
-                    <!-- Service Item End -->
+                    <!-- About Facility List End -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Our Services Section End -->
+    <!-- About Us Section End -->
 
-<style>
-    .service-content {
-    background: rgb(39, 37, 65); /* Black background */
-    color: black; /* White text */
-    padding: 10px; /* Add some spacing inside */
-    border-radius: 0; /* Rounded corners */
-    text-align: center; /* Center-align text */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow */
-}
+   <!-- Vision Mission Start -->
+<div class="vision-mission">
+    <div class="container">
+        <div class="row section-row align-items-center">
+            <div class="col-lg-6">
+                <div class="section-title dark-section">
+                    <h3 class="wow fadeInUp">vision mission</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">AVSI Interior & Decor: <span>Our Commitment</span></h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-title-content dark-section">
+                    <p class="wow fadeInUp" data-wow-delay="0.2s">AVSI Interior & Decor strives to deliver excellence through innovative designs and quality execution, offering tailored solutions for every client.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="vision-mission-box">
+                    <div class="vision-mission-item wow fadeInUp">
+                        <div class="icon-box">
+                            <i class="fa fa-eye"></i> <!-- Vision Icon Updated -->
+                        </div>
+                        <div class="vision-mission-content">
+                            <h3>our vision</h3>
+                            <p>To be a dynamic, admired interior design company with global presence, providing innovative, customer-centric solutions and maintaining the highest quality standards.</p>
+                        </div>
+                    </div>
+                    <div class="vision-mission-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon-box">
+                            <i class="fa fa-rocket"></i> <!-- Mission Icon Updated -->
+                        </div>
+                        <div class="vision-mission-content">
+                            <h3>our mission</h3>
+                            <p>To deliver superior interior design services, ensuring customer satisfaction through high-quality execution, innovative design, and efficient project management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Vision Mission End -->
 
-.service-content h3 {
-    color: #E4C9A3; /* Highlight color for title */
-    text-decoration: none; /* Remove underline */
-    font-size: 24px; /* Adjust font size */
-}
 
-.service-content p {
-    font-size: 14px; /* Adjust paragraph size */
-}
+    <!-- Best Selling Start -->
+<div class="best-selling">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="best-selling-content">
+                    <div class="best-selling-content-img">
+                        <figure class="image-anime reveal">
+                            <img src="images/11.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp" style="margin-left: -35px;">best selling finishes</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">AVSI Interior & Decor uses <span>high-quality materials</span></h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">AVSI ensures all materials are sourced from trusted suppliers, offering a variety of finishes including gloss, matte, wood textures, and eco-friendly options with all necessary certifications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="best-selling-image">
+                    <figure class="image-anime reveal">
+                        <img src="images/13.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Best Selling End -->
 
-</style>
 
 <!-- Footer Start -->
 <footer class="main-footer text-center" style="color: white; padding: 20px 0;">
